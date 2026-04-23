@@ -1,0 +1,110 @@
+:root {
+    --bg-purple: #2e0249;
+    --card-bg: #570a57;
+    --text-blue: #00f7ff;
+    --text-white: #ffffff;
+    --accent-pink: #a91079;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-purple);
+    color: var(--text-white);
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    /* Para que parezca una infografía de un solo vistazo */
+    height: 100vh;
+    overflow-x: hidden; 
+}
+
+/* CONTENEDOR TIPO INFOGRAFÍA (3 COLUMNAS) */
+.main-container {
+    max-width: 100%; /* Expande a toda la pantalla */
+    margin: 0 auto;
+    column-count: 3; /* Divide el contenido en 3 columnas */
+    column-gap: 20px;
+}
+
+/* HEADER Y FOOTER (Cruzan todas las columnas) */
+header, footer {
+    column-span: all;
+    text-align: center;
+}
+
+header {
+    padding: 20px 0 30px 0;
+}
+
+footer {
+    padding: 20px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--text-blue);
+    margin-bottom: 10px;
+}
+
+.highlight { color: var(--accent-pink); }
+
+/* TARJETAS  */
+.full-width-card {
+    background-color: var(--card-bg);
+    margin-bottom: 20px; /* Separación vertical */
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 247, 255, 0.2);
+    display: inline-block; /* Para que no se corten entre columnas */
+    width: 100%;
+    break-inside: avoid; /* Evita que la tarjeta se parta a la mitad */
+}
+
+/* El contenido interno sigue siendo flex para tus fotos */
+.full-width-card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: var(--text-blue);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--accent-pink); /* subrayado */
+    display: inline-block;
+}
+
+.data-text { color: var(--text-blue); font-weight: bold; }
+
+.highlight-text {
+    font-size: 1.2rem;
+    color: #00ff88; /* verde */
+    margin-top: 10px;
+}
+
+/* IMÁGENES  */
+.image-placeholder {
+    width: 100%;
+    min-height: 150px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px dashed var(--text-blue);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
