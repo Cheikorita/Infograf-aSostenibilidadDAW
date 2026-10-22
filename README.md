@@ -1,25 +1,25 @@
-# 🌿 Infografía de Sostenibilidad DAW
+# 🌿 Sustainability Infographic DAW
 
-¡Bienvenido al proyecto! Este repositorio contiene el código y los recursos visuales de una infografía web interactiva enfocada en la sostenibilidad en el ámbito informático.
+Welcome! This repository contains the code and visual assets for an interactive web infographic focused on digital and IT sustainability.
 
-🚀 **[👉 Haz clic aquí para ver la web en directo](https://cheikorita.github.io/Infograf-aSostenibilidadDAW/)**
-
----
-
-### 📂 Contenido del proyecto
-
-El proyecto está estructurado con los siguientes elementos:
-
-* **Página principal:** `index.html` y hoja de estilos `estilos.css`.
-* **Secciones e imágenes de la infografía:**
-  * `conceptos.png` — Conceptos clave de sostenibilidad.
-  * `impactDeWeb.png` — Impacto web.
-  * `analisis.png` — Análisis del estado actual.
-  * `fairfone.png` — Caso de estudio: Fairphone.
-  * `problmsypropuestas.png` — Problemas identificados y propuestas.
-  * `cinco.png` — Buenas prácticas y consejos.
-  * `conclu.png` — Conclusiones finales.
+🚀 **[👉 Click here to view the live website](https://cheikorita.github.io/Infograf-aSostenibilidadDAW/)**
 
 ---
 
-> 💡 *Sugerencia: Abre el enlace superior para visualizar la interfaz gráfica completa renderizada en lugar de explorar el código.*
+### 📂 Project Overview
+
+This project consists of the following components:
+
+* **Core Web Files:** `index.html` and stylesheet `estilos.css`.
+* **Infographic Sections & Assets:**
+  * `conceptos.png` — Key sustainability concepts.
+  * `impactDeWeb.png` — Web environmental impact.
+  * `analisis.png` — Current state analysis.
+  * `fairfone.png` — Case study: Fairphone.
+  * `problmsypropuestas.png` — Identified problems and proposed solutions.
+  * `cinco.png` — Best practices and key takeaways.
+  * `conclu.png` — Final conclusions.
+
+---
+
+> 💡 *Note: Open the live link above to experience the full interactive user interface rather than browsing the raw source code.*
